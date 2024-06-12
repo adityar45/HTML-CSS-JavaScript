@@ -1,0 +1,43 @@
+.myform{
+    padding: 20px;
+}
+
+/*label -> element/tag*/
+.myform label{
+    display:inline;
+}
+
+/*both class*/
+.myform .form-group{
+    padding-bottom: 15px;
+}
+
+/*input -> element/tag*/
+.myform input{
+    padding: 8px;
+    width:50%;
+}
+
+/*input with attribute as text*/
+.myform input[type="text"] {
+    padding: 8px;
+    width:50%;
+}
+
+#radiobutton {
+    padding:10x;
+}
+
+#behave-inline{
+    display:inline;
+}
+
+/*input with attribute as submit*/
+.myform input[type="submit"] {
+    background-color: grey;
+    color:black;
+    padding: 10px;
+    border:none;
+    width:50%;
+}                                                                                                               
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Form-2</title>
+</head>
+
+<body>
+  <form class="myform">
+    <fieldset>
+      <legend>Fill the form </legend>
+    <div class="form-group">
+      <label>Name :</label>
+      <input type="text" name="name">
+    </div>
+
+    <div class="form-group">
+      <label>Class : </label>
+      <input type="text" name="class">
+    </div>
+
+    <div class="form-group">
+      <label>Favourite Subject : </label>
+      <select name="subject">
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="Biology">Biology</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Email : </label>
+      <input type="text" name="email">
+    </div>
+
+    <div class="form-group">
+      <label>Password : </label>
+      <input type="password" name="password">
+    </div>
+
+    <div class="form-group">
+      <label>Date of birth : </label>
+      <input type="date" name="dob">
+    </div>
+
+    <div id="radiobutton">
+      <label>Like Sports ? : </label>
+      <div>
+        <label>Yes</label> 
+        <input type="radio" value="Yes" checked name="sports">
+      </div>
+
+      <div>
+        <label>No</label> 
+        <input type="radio" value="No" name="sports">
+      </div>
+
+    </div>
+
+    <div class="form-group">
+      <label>Message : </label>
+      <input type="textarea" name="message">
+    </div>
+
+    <div id="behave-inline">
+      <div>
+        <input id="button" type="submit" value="Submit" name="">
+      </div>
+     
+      <div>
+        <input id="button" type="submit" value="Cancel" name="">
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+</body>
+</html>
