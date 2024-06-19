@@ -5,10 +5,13 @@
 
 .grey-border{
     border-width:5px;
+
     border-color: grey;
 }
 
 td{
+
+    
     border-width: 3px;
     background-color:#DDDDDD;
 }
