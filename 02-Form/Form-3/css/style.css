@@ -1,0 +1,14 @@
+body {
+    background-color: gold;
+    text-decoration: red;
+}
+
+table {
+    border: 0px;
+    width: 480 px;
+    align-items: center;
+}
+
+td {
+    align-items: center;
+}
